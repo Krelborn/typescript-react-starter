@@ -1,14 +1,17 @@
 {
-  "name": "compiledcreations",
+  "name": "typescript-react-starter",
   "version": "1.0.0",
-  "description": "Compiled Creations Limited Website",
-  "main": "index.js",
+  "description": "Starter project for a React project using Typescript",
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matt Styles",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Krelborn/typescript-react-starter.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "awesome-typescript-loader": "^3.4.1",
     "source-map-loader": "^0.2.3",
